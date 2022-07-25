@@ -28,6 +28,14 @@
 	height: auto;
 	width: 100px;
 }
+.side-vector{
+	height: auto;
+	width: 250px;
+}
+.main-row{
+	display: flex;
+	justify-content: space-between;
+}
 
 html {
 	font-family: sans-serif;
@@ -10625,11 +10633,19 @@ h4.grand-totall-title span {
 	top: 2px;
 	left: calc(50% - 3px);
 }
+.feature-box{
+	height: auto;
+	margin-top: 5%;
+	width: 55%;
+}
 .product_deal .product-block {
 	position: relative;
 	overflow: hidden;
 	border: solid 3px #e41a1e;
 	padding-bottom: 40px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
 }
 .product_deal .deal-clock {
 	padding: 15px;
@@ -10709,6 +10725,11 @@ ul.columns-4 .product-block:hover .product-actions > a {
 	ul.columns-4 li:nth-child(4n + 4) {
 		border-right: none;
 	}
+}
+.feature-icon{
+
+	width: 60px;
+	height: 60px;
 }
 @media only screen and (max-width: 992px) {
 	.slider-pro h2.sp-layer {
